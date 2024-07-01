@@ -1,0 +1,189 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title{
+    background-color: #FFD56F;
+
+     
+}
+
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Sono', sans-serif; */
+/* color used
+    yelllow #FFD56F
+    lt-orange #FFB26B
+    orange #FF7B54
+    green #939B62
+*/
+#head{
+    font-family: 'Sono', sans-serif;
+    font-size: 3.1rem;
+    line-height:4rem;
+    margin-bottom: 6%; 
+    color:white ;
+    font-weight: bold;
+
+}
+.container-fluid{
+    padding: 3% 10% 8%;
+}
+/* .feature-container{
+   padding: 3% 10%;
+} */
+.nav-link{
+    color: #939B62;
+    font-size: 120%;
+}
+.navbar-brand{
+    font-size: 180%;
+    font-weight: bold;
+    color: #FF7B54;
+}
+.navbar{
+    margin-bottom: 1rem;
+}
+.btndwn{
+    margin: 0.3% 3%;
+}
+.phto{
+    transform: rotate(-23deg);
+    padding: 4% 0% 6% 0%;
+    position: absolute;
+    width: 40%;
+}
+
+/* feature */
+#features{
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.ftr-icon{
+    font-size: 4rem;
+    color: #FFB26B;
+    margin-bottom: 5%;
+    
+}
+.ftr-icon:hover{
+    color: #FF7B54;
+}
+
+.ftr-block{
+    margin: 3.7rem 0rem;
+    padding:0% 7%;
+}
+h3{
+    font-family: 'Sono', sans-serif;
+    font-size: 2rem;
+}
+/* Testimonials */
+#testimonials{
+    background-color:#FFB26B ;
+    /* padding: 6% 15%; */
+    padding-top: 2.7%;
+    text-align: center;
+    position:relative;
+}
+.head-test{
+    font-family: 'Sono', sans-serif;
+    color: #fff; 
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin: 60px 40px 30px;
+    padding: 0 10%;
+}
+.test-img{
+    width:7.8%;
+    border-radius: 100%;
+    margin:30px 30px 45px 30px;
+}
+#press{
+    background-color: #FFB26B;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.press-img{
+    width: 16%;
+    margin: 3% 1.7%;
+}
+
+/* pricing */
+
+.btnsign{
+    margin: 0.3% 3%;
+    background-color: #939B62;
+    border-color: white;
+    padding: auto;
+}
+.btnsignt{
+    margin: 0.3% 3%;
+    border-color: #939B62;
+    color: #939B62;
+}
+#pricing{
+    padding: 90px;
+}
+.price-tag{
+    color: #939B62;
+    font-size: 2.65rem;
+}
+.price-head{
+    color:#FF7B54;
+}
+.card{
+    margin: 4%;
+}
+
+/* phone size setting */
+
+@media (max-width:992px){
+    .phto{
+        transform: rotate(28deg);
+        padding: 5% 0% 3% 0%;
+        position: relative;
+        width: 70%;
+    }
+    #title{
+        text-align: center;
+    }
+    #head{
+        font-size: 4rem;
+        line-height: 5.4rem;
+    }
+
+
+}
+
+/* cta */
+
+#cta{
+    background-color:#FFB26B;
+    padding: 7% ;
+}
+.cta-text{
+    color:white;
+    padding-bottom: 3%;
+    line-height: 2.7rem;
+}
+.btn-cta{
+    margin: 0.1% 2%;
+    background-color:#FF7B54;
+    border-color:#FF7B54;
+    color:white;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    margin: 1.3rem auto 1.3rem;
+    color: #939B62;
+}
+.fa-icone{
+    margin: 0px 9px;
+    font-size: 20px;
+}
+.fot-icon{
+    font-weight:50 ;
+}
